@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    height: 70px;
+    width: 84.29em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo-image {
+    height: 50px;
+    width: 100px;
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.oExsv64Sg7eODQhCLfF5UgHaDU?pid=Api&P=0&h=220");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+input.search {
+    height: 40px;
+    width: 460px;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-left: -4px;
+    background-color: #f1efef;
+    font-size: 16px;
+}
+button {
+    height: 40px;
+    width: 50px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    outline: none;
+    border: none;
+}
+.log-cart{
+    height: 40px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;  
+}
+#l-c{
+    position: absolute;
+    margin-right: 70px;
+}
+.shop{
+    height: 30px;
+    width: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 18px;
+}
+#sh {
+    position: absolute;
+    margin-right: 155px;
+}
+.three-dot {
+    height: 40px;
+    width: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    height: 71em;
+    width: 84.29em;
+    background-color: #f1efef;
+}
+.grid_sec1 {
+    display: grid;
+    grid-template-rows: repeat(1 , 1fr 32px);
+    grid-template-columns: repeat(9,1fr);
+    height: 128px;
+    grid-column-gap: 50px;
+    background-color: white;
+    margin: 10px 20px;
+    padding-top: 12px;
+    padding: 15px;
+    grid-row-gap: 8px;
+}
+header {
+    background-color: white;
+}
+.soap{
+    background-image: url("https://i.pinimg.com/originals/a4/c1/8d/a4c18df11ef1090410d3775989879aaf.jpg");
+    background-size: cover;
+}
+.mobile{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.KyrBu1s2mkrqDl3Bdo8QtAHaHa&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.cloth{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.qZZMYlIkhArsaYSvEb9a3gHaKg&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.elec{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.6AwfvMS9Z_ujYPRtHs1fYgHaFb&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.fur{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.B6OrqodRPmsspKyJVPuzzwHaFF&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.toys{
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.zCip9FmV6OeaCqJUULDV5AHaE8&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.veh{
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.zsgBiWqYx5NH5W4Ob-MSAAHaEK&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.books{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.oJdV3qK9kXpK-1i8gKG6OAHaD4&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.beauty{
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.mpnl7NPP0HMVYOewhOzGbgHaFj&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 82em;
+    height: 15em;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/aca69f5455b5df65.jpg?q=60");
+    background-size: cover;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 15px;
+}
+.shopsection {
+    height: 4em;
+    width: 69em;
+    background-color: white;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.heading {
+    font-size: 23px;
+    font-family: math;
+    margin-left: 22px;
+    padding-top: 18px;
+}
+
+.grid_sec2 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr 67px);
+    grid-template-columns: repeat(5, 1fr);
+    background-color: white;
+    width: 67.7em;
+    height: 13em;
+    margin-left: 21px;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+.headphones{
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.MugVXqL8EDcsSmIkyEa6gAHaEg?pid=Api&P=0&h=220");
+    background-size: cover;
+    
+}
+.watch{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.dXxeCCrInqgUz04OQ6XK8gHaGK?pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.kebo{
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.euC_QKfgzf1dy2EKKo5_PwHaFj?pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.lap{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.K7ahlA28wM6jYENyeUqjJgHaFj?pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.shaver{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.rGaUu-RM5DxWaKp_BpDmBAHaDt?pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.detail{
+    font-weight: 700;
+}
+.dt1{
+    text-align: center;
+    margin-top: 15px;
+}
+.image2 {
+    height: 12.65em;
+    width: 8.2em;
+    background-color: aquamarine;
+    margin-left: 47.9em;
+    margin-top: -45px;
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.FahlqEJwu647HBi91U3qmgHaLF?pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.grid_sec3 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr 67px);
+    grid-template-columns: repeat(5, 1fr);
+    background-color: white;
+    width: 80.79em;
+    height: 16em;
+    margin-left: 21px;
+    grid-column-gap: 10px;
+    padding: 10px;
+    margin-top: 22px;
+}
+.footer{
+    height: 40em;
+    width: 84.29em;
+    background-color: #333;
+    color: white;
+}
+.foot1 {
+    padding: 2em 2em 2em 2em;
+    height: 36em;
+    width: 80.3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 2em;
+}
